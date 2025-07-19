@@ -1,13 +1,6 @@
-# soren-tools
+# Go Tools Package
 
-This repository is used to host shared Go packages that are commonly used across multiple Soren services.
-
-In order to access this private repo when importing the packages, all you need to do is set the `GOPRIVATE` environment variable:
-
-```
-go env -w GOPRIVATE="github.com/SorenHQ/*"
-```
-
+This repository is used to host shared Go packages that are commonly used across multiple  services.
 
 ## 📦 Packages
 
